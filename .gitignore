@@ -39,3 +39,10 @@ luac.out
 *.x86_64
 *.hex
 
+*.html
+*.pdf
+*_files/
+/.luarc.json
+
+/.quarto/
+/_output/

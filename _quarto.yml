@@ -1,0 +1,17 @@
+project:
+  type: website
+  output-dir: _output
+  title: "Docpath: A Quarto extension to show the path of the current document"
+
+website:
+  title: "Docpath: A Quarto extension to show the path of the current document"
+
+  # GitHub links in the sidebar of each page
+  repo-url: https://github.com/albertomercurio/quarto-docpath
+  repo-actions: [edit, source, issue]
+
+  navbar:
+    search: false
+    tools:
+      - icon: github
+        href: https://github.com/albertomercurio/quarto-docpath

@@ -1,0 +1,25 @@
+---
+title: "Docpath Example"
+---
+
+## Use Cases
+
+Simple use cases for the `docpath` shortcode:
+```{.default shortcodes=false}
+{{< docpath >}}
+```
+{{< docpath >}}
+
+By default, the `docpath` shortcode will return the relative path to the current document. If you want to get the absolute path, you can set the `absolute` parameter to `true`:
+```{.default shortcodes=false}
+{{< docpath absolute=true >}}
+```
+{{< docpath absolute=true >}}
+
+If you want to get the path to the current document without the file extension, you can set the `remove_ext` parameter to `true`:
+```{.default shortcodes=false}
+{{< docpath remove_ext=true >}}
+```
+{{< docpath remove_ext=true >}}
+
+
